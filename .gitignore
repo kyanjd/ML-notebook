@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Allow these specific file types
+!*.py
+!*.ipynb
+!*.csv
+!README
+!README.md
+!.gitignore
+
+# Ensure Git tracks directories (but not their contents) if they have allowed files
+!*/
